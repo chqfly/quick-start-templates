@@ -1,6 +1,6 @@
 {
   "name": "@chqfly/stylelint-config-standard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "stylelint-config-standard",
   "keywords": [
     "stylelint",

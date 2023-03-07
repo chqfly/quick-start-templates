@@ -1,0 +1,23 @@
+{
+  "name": "@chqfly/commitlint-config-standard",
+  "version": "0.0.1",
+  "description": "commitlint-config-standard",
+  "keywords": [
+    "commitlint",
+    "config"
+  ],
+  "author": "chqfly",
+  "homepage": "https://github.com/chqfly/quick-start-templates/blob/master/lints/commitlint-config-standard/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chqfly/quick-start-templates"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^5.0.0"
+  }
+}

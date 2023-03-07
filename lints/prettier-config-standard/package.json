@@ -1,0 +1,20 @@
+{
+  "name": "@chqfly/prettier-config-standard",
+  "version": "0.0.1",
+  "description": "prettier-config-standard",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "chqfly",
+  "homepage": "https://github.com/chqfly/quick-start-templates/blob/master/lints/prettier-config-standard/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chqfly/quick-start-templates"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}

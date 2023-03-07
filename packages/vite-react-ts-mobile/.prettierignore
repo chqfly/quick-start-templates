@@ -1,0 +1,10 @@
+**/*.svg
+**/*.ejs
+**/*.html
+.history
+.idea
+coverage
+.yarn
+dist
+node_modules
+.vscode

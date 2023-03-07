@@ -1,0 +1,22 @@
+{
+  "name": "vite-react-ts",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "chqfly",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/vite-react-ts.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/vite-react-ts.test.js"
+  }
+}

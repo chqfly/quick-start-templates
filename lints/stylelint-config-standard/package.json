@@ -1,0 +1,25 @@
+{
+  "name": "@chqfly/stylelint-config-standard",
+  "version": "0.0.1",
+  "description": "stylelint-config-standard",
+  "keywords": [
+    "stylelint",
+    "config"
+  ],
+  "author": "chqfly",
+  "homepage": "https://github.com/chqfly/quick-start-templates/blob/master/lints/stylelint-config-standard/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chqfly/quick-start-templates"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-prettier": "^3.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@chqfly/eslint-config-standard",
+  "version": "0.0.1",
+  "description": "eslint-config-standard",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "chqfly",
+  "homepage": "https://github.com/chqfly/quick-start-templates/blob/master/lints/eslint-config-standard/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chqfly/quick-start-templates"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}

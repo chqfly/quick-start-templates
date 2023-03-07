@@ -8,13 +8,16 @@ importers:
     devDependencies:
       lerna: 6.5.1
 
-  lint/commitlint-config-standard:
+  libs/network:
+    specifiers: {}
+
+  lints/commitlint-config-standard:
     specifiers:
       conventional-changelog-conventionalcommits: ^5.0.0
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
 
-  lint/eslint-config-standard:
+  lints/eslint-config-standard:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.54.0
       '@typescript-eslint/parser': ^5.54.0
@@ -34,10 +37,10 @@ importers:
       eslint-plugin-react: 7.32.2_eslint@8.35.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.35.0
 
-  lint/prettier-config-standard:
+  lints/prettier-config-standard:
     specifiers: {}
 
-  lint/stylelint-config-standard:
+  lints/stylelint-config-standard:
     specifiers:
       stylelint: ^15.2.0
       stylelint-config-standard-scss: ^7.0.1
@@ -80,10 +83,10 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@chqfly/commitlint-config-standard': link:../../lint/commitlint-config-standard
-      '@chqfly/eslint-config-standard': link:../../lint/eslint-config-standard
-      '@chqfly/prettier-config-standard': link:../../lint/prettier-config-standard
-      '@chqfly/stylelint-config-standard': link:../../lint/stylelint-config-standard
+      '@chqfly/commitlint-config-standard': link:../../lints/commitlint-config-standard
+      '@chqfly/eslint-config-standard': link:../../lints/eslint-config-standard
+      '@chqfly/prettier-config-standard': link:../../lints/prettier-config-standard
+      '@chqfly/stylelint-config-standard': link:../../lints/stylelint-config-standard
       '@commitlint/cli': 17.4.4
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -1795,7 +1798,7 @@ packages:
       p-reduce: 2.1.0
       pacote: 13.6.1
       pify: 5.0.0
-      semver: 7.3.4
+      semver: 7.3.8
       slash: 3.0.0
       validate-npm-package-license: 3.0.4
       validate-npm-package-name: 4.0.0
@@ -4307,7 +4310,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.5
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -5583,7 +5586,7 @@ packages:
       array-differ: 3.0.0
       array-union: 2.1.0
       arrify: 2.0.1
-      minimatch: 3.0.5
+      minimatch: 3.1.2
     dev: true
 
   /mute-stream/0.0.8:

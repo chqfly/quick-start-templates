@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = viteReactTs;
 
 function viteReactTs() {
-  return 'Hello from viteReactTs';
+  return "Hello from viteReactTs";
 }

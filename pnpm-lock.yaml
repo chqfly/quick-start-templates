@@ -4,9 +4,21 @@ importers:
 
   .:
     specifiers:
+      '@chqfly/commitlint-config-standard': workspace:*
+      '@chqfly/eslint-config-standard': workspace:*
+      '@chqfly/prettier-config-standard': workspace:*
+      '@commitlint/cli': ^17.4.4
+      husky: ^8.0.3
       lerna: ^6.5.1
+      lint-staged: ^13.1.2
     devDependencies:
+      '@chqfly/commitlint-config-standard': link:lints/commitlint-config-standard
+      '@chqfly/eslint-config-standard': link:lints/eslint-config-standard
+      '@chqfly/prettier-config-standard': link:lints/prettier-config-standard
+      '@commitlint/cli': 17.4.4
+      husky: 8.0.3
       lerna: 6.5.1
+      lint-staged: 13.1.2
 
   libs/network:
     specifiers: {}
@@ -38,7 +50,10 @@ importers:
       eslint-plugin-react-hooks: 4.6.0_eslint@8.35.0
 
   lints/prettier-config-standard:
-    specifiers: {}
+    specifiers:
+      prettier: ^2.8.4
+    devDependencies:
+      prettier: 2.8.4
 
   lints/stylelint-config-standard:
     specifiers:
@@ -111,7 +126,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/gen-mapping': 0.1.1
-      '@jridgewell/trace-mapping': 0.3.17
+      '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
   /@babel/code-frame/7.18.6:
@@ -1739,7 +1754,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.14
-      '@jridgewell/trace-mapping': 0.3.17
+      '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
   /@jridgewell/resolve-uri/3.1.0:
@@ -1756,7 +1771,7 @@ packages:
     resolution: {integrity: sha512-m7O9o2uR8k2ObDysZYzdfhb08VuEml5oWGiosa1VdaPZ/A6QyPkAJuwN0Q1lhULOf6B7MtQmHENS743hWtCrgw==}
     dependencies:
       '@jridgewell/gen-mapping': 0.3.2
-      '@jridgewell/trace-mapping': 0.3.17
+      '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
   /@jridgewell/sourcemap-codec/1.4.14:
@@ -2746,7 +2761,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.5
-      caniuse-lite: 1.0.30001460
+      caniuse-lite: 1.0.30001462
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2866,8 +2881,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001460
-      electron-to-chromium: 1.4.322
+      caniuse-lite: 1.0.30001462
+      electron-to-chromium: 1.4.324
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -2947,8 +2962,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  /caniuse-lite/1.0.30001460:
-    resolution: {integrity: sha512-Bud7abqjvEjipUkpLs4D7gR0l8hBYBHoa+tGtKJHvT2AYzLp1z7EmVkUT4ERpVUfca8S2HGIVs883D8pUH1ZzQ==}
+  /caniuse-lite/1.0.30001462:
+    resolution: {integrity: sha512-PDd20WuOBPiasZ7KbFnmQRyuLE7cFXW2PVd7dmALzbkUXEP46upAuCDm9eY9vho8fgNMGmbAX92QBZHzcnWIqw==}
     dev: true
 
   /chalk/2.4.2:
@@ -3522,8 +3537,8 @@ packages:
       jake: 10.8.5
     dev: true
 
-  /electron-to-chromium/1.4.322:
-    resolution: {integrity: sha512-KovjizNC9XB7dno/2GjxX8VS0SlfPpCjtyoKft+bCO+UfD8bFy16hY4Sh9s0h9BDxbRH2U0zX5VBjpM1LTcNlg==}
+  /electron-to-chromium/1.4.324:
+    resolution: {integrity: sha512-m+eBs/kh3TXnCuqDF6aHLLRwLK2U471JAbZ1KYigf0TM96fZglxv0/ZFBvyIxnLKsIWUoDiVnHTA2mhYz1fqdA==}
     dev: true
 
   /emoji-regex/8.0.0:

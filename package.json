@@ -1,7 +1,18 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "clean": "lerna clean --yes && rm -rf node_modules",
+    "prepare": "husky install",
+    "publish": "lerna publish --no-private"
+  },
   "devDependencies": {
-    "lerna": "^6.5.1"
+    "lerna": "^6.5.1",
+    "@commitlint/cli": "^17.4.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "@chqfly/commitlint-config-standard": "workspace:*",
+    "@chqfly/eslint-config-standard": "workspace:*",
+    "@chqfly/prettier-config-standard": "workspace:*"
   }
 }
